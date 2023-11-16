@@ -1,0 +1,94 @@
+/* CSS général pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Conteneur principal pour centrer le contenu */
+.container {
+    width: 80%;
+    max-width: 800px; /* Limite la largeur maximale */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre subtile */
+    text-align: center; /* Centre le texte dans le conteneur */
+}
+
+/* Style du header principal */
+h1 {
+    color: #444;
+    margin: 20px 0;
+}
+
+/* Style des images */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Style des paragraphes */
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Style des liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style spécifique pour le bouton du site favori */
+.favorite-site {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.favorite-site:hover {
+    background-color: #45a049;
+}
+
+/* Style des sections et headers secondaires */
+h2 {
+    color: #555;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style des listes */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+/* Style des icônes (Font Awesome) */
+.fab {
+    margin-right: 10px;
+    color: #555;
+}
+
+
